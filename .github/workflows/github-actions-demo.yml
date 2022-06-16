@@ -9,4 +9,3 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: List files in the repository
         run: pwd
-        run: gcc 1.c -o 1
