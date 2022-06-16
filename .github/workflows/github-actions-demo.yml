@@ -11,3 +11,5 @@ jobs:
         run: pwd
       - name: compile the c 
         run: gcc 1.c -o 1
+      - name: run my app
+        run: ./1
